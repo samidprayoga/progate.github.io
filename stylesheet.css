@@ -1,3 +1,194 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(img/atas.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 1;
+  font-size: 60px;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.pelajari {
+  background-color: #c0392b;
+}
+
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.heading {
+  text-align: center;
+}
+
+footer {
+  height: 50px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+}
+
+.footer-left {
+  float: left;
+}
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #d8584f;
+  cursor: pointer;
+  box-shadow: 0 7px #c0392b;
+
+}
+
+/* Tambahkan CSS untuk message ketika diklik */
+.message :active {
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+  text-align: center;
+}
+
+.lesson {
+  float: left;
+  width: 20%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+}
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+/*extra 3*/
 *:hover{
   transition: all 0.5s;
 }
@@ -16,15 +207,13 @@ body p{
 .heading b{
   color:#c0392b;
 }
-.service-wrapper{
+.goals-wrapper{
   width:100%;
   padding-top:50px;
   padding-bottom:50px;
   margin-left:auto;
   margin-right:auto;
-  text-align: center;
-  /*background-image: url(https://makcreates.com/wp-content/uploads/2018/03/black-background-mak-creates-web-design-services-1500-2500.jpg) ;
-  background-size: cover;*/  
+  text-align: center; 
 }
 .icon{
   font-size: 50px;  
@@ -32,9 +221,10 @@ body p{
 .icon i{
   color:#c0392b;  
 }
-.services{
+.goal{
   display:flex;
-  flex-wrap:wrap;  
+  flex-wrap:wrap;
+  margin:0 auto;  
 }
 .content{
   margin: 25px 25px;
@@ -42,7 +232,7 @@ body p{
   /*-webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;*/
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; 
   -webkit-box-background:rgba(255,255,255, 0.5);
-  width:10%;
+  width:20%;
   flex:auto;
 }
 .desc h3{
@@ -62,5 +252,6 @@ body p{
   color: #fff;
 }
 .content:hover p{
-  color:black;
+  color:#fff;
 }
+/*------batas ektra 3-----*/
