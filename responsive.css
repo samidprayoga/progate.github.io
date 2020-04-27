@@ -1,0 +1,10 @@
+@media all and (max-width:1000px){
+    .content{
+      width:30%;
+    }
+  }
+  @media all and (max-width:670){
+    .content{
+      width:90%;
+    }
+  }
