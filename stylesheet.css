@@ -7,16 +7,16 @@ body{
 body p{
   color:#999999;
 }
-.title h1{
+.heading h1{
   color:black;
   font-size:50px;
   font-weight:700;  
 }
  
-.title b{
+.heading b{
   color:#3e64ff;
 }
-.extra1{
+.service-wrapper{
   width:100%;
   padding-top:50px;
   padding-bottom:50px;
@@ -32,7 +32,7 @@ body p{
 .icon i{
   color:#3e64ff;  
 }
-.extra1-content{
+.services{
   display:flex;
   flex-wrap:wrap;  
 }
@@ -42,7 +42,7 @@ body p{
   /*-webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;*/
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; 
   -webkit-box-background:rgba(255,255,255, 0.5);
-  width:19%;
+  width:10%;
   flex:auto;
 }
 .desc h3{
